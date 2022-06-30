@@ -148,6 +148,10 @@ export const FooterCopyRights = styled.p `
     text-transform: capitalize;
     color: #FFFFFF;
 
+    @media screen and (max-width:1024px) and (min-width:768px){
+        font-size: 16px;
+        line-height: 20px;
+    }
     @media screen and (max-width:767px){
         font-size: 16px;
         line-height: 20px;
