@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+@font-face {
+    font-family: 'adieuregular';
+    src: url('../src/fonts/adieu-regular-webfont.woff2') format('woff2'), url('../src/fonts/adieu-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('../src/fonts/gilroy-light-webfont.woff2') format('woff2'), url('../src/fonts/gilroy-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroyBold';
+    font-style: normal;
+    font-weight: 800;
+    src: local('../src/fonts/Gilroy-Bold'), url('../src/fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mabry Pro';
+    src: url('../src/fonts/MabryPro-Medium.woff2') format('woff2'), url('../src/fonts/MabryPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body {
+    font-family: 'Mabry Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    scroll-behavior: smooth;
+    background: #060420;
+    height: 100%;
+}
+
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 99999;
+    background: transparent;
+    padding: 0 15px;
+    transition: all 500ms ease-in-out;
+}
+
+header.scrolled {
+    background: #ffffff;
+}
+
+header.scrolled>div>div:first-child {
+    padding: 15px 0;
+}
+
+header.scrolled ul li a {
+    color: #060420;
+}
+header.scrolled img {
+    width: 100px;
+}
+header.scrolled ul li:last-child a {
+    background: #060420;
+    color: #ffffff;
+}
+
+footer {
+    padding: 234px 15px 94px;
+}
+
+.margin-top-custom {
+    margin-top: 153px !important;
+}
+
+.align-self-center {
+    align-items: center;
+}
+
+.blackbg {
+    background: #060420 !important;
+    bottom: 112.52px !important;
+    z-index: 9 !important;
+    transform: rotate(-3.93deg) !important;
+}
+
+@keyframes scrolling-left1 {
+    0% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scrolling-left1 {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    footer {
+        padding: 50px 15px 50px;
+    }
+    .margin-top-custom {
+        margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .margin-top-custom {
+        margin-top: 40px !important;
+    }
+    footer {
+        padding: 50px 15px 50px;
+    }
+    .align-self-center {
+        justify-content: center !important;
+    }
+    .blackbg {
+        bottom: 0 !important;
+    }
+}
