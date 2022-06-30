@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/martza-tech/static/css/main.73aa28a2.css",
+    "main.js": "/martza-tech/static/js/main.73c454fc.js",
+    "static/media/icon2.svg": "/martza-tech/static/media/icon2.e92e0c6ac73ff0943bd7a6d6ceff167c.svg",
+    "static/media/icon5.svg": "/martza-tech/static/media/icon5.13c4ead1707a6a5a58f9e11c95af942e.svg",
+    "static/media/icon3.svg": "/martza-tech/static/media/icon3.acb13f9d26ac6bf49969d45226557393.svg",
+    "static/media/bg-banner.svg": "/martza-tech/static/media/bg-banner.6cac98896dfba86add27419be94f99f6.svg",
+    "static/media/uyiuyi1.png": "/martza-tech/static/media/uyiuyi1.063179c0b2921022d54c.png",
+    "static/media/icon4.svg": "/martza-tech/static/media/icon4.88c4c1cf3dcd8117336e64ec26482c56.svg",
+    "static/media/MabryPro-Medium.woff": "/martza-tech/static/media/MabryPro-Medium.eacc26f0c27ed765c477.woff",
+    "static/media/MabryPro-Medium.woff2": "/martza-tech/static/media/MabryPro-Medium.73b61462a1afad2c399d.woff2",
+    "static/media/Gilroy-Bold.woff": "/martza-tech/static/media/Gilroy-Bold.29e8a00a2523137109fc.woff",
+    "static/media/adieu-regular-webfont.woff": "/martza-tech/static/media/adieu-regular-webfont.bdaba651e0f04f956f51.woff",
+    "static/media/gilroy-light-webfont.woff": "/martza-tech/static/media/gilroy-light-webfont.6d1d3d70b270cdede7e8.woff",
+    "static/media/adieu-regular-webfont.woff2": "/martza-tech/static/media/adieu-regular-webfont.123d2a955755217e918f.woff2",
+    "static/media/gilroy-light-webfont.woff2": "/martza-tech/static/media/gilroy-light-webfont.0f78226537f408c4dd12.woff2",
+    "static/media/icon1.svg": "/martza-tech/static/media/icon1.05d9ddcb595ffd716c5c9cc1eaf2c5ff.svg",
+    "static/media/logo.svg": "/martza-tech/static/media/logo.8b4d2ee996b6a16bc62a1fca788dee42.svg",
+    "index.html": "/martza-tech/index.html",
+    "main.73aa28a2.css.map": "/martza-tech/static/css/main.73aa28a2.css.map",
+    "main.73c454fc.js.map": "/martza-tech/static/js/main.73c454fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73aa28a2.css",
+    "static/js/main.73c454fc.js"
+  ]
+}
